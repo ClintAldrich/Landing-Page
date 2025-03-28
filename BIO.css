@@ -1,0 +1,28 @@
+body {
+    
+    
+    line-height: 1.5;
+    background-color:#d3d9d4;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    background-color: #748d92;
+    text-align:center;
+    color: #212a31;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 10px #2e3944;
+}
+
+h2 {
+    text-align: center;
+    color: #124e66;
+    font-size:40px;
+    
+}
+hr {
+    box-shadow: 1px 0 5px;
+    color: #d3d9d4;
+}

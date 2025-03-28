@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1f3b03f6f3.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        nav  {
+            background-color: #212a31;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            background-color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-color: #F0C808;
+        }
+
+        nav a:hover, #home:hover {
+            background-color: #124e66;
+            color: #d3d9d4;
+            transform: scale(1.05);
+        }
+
+        #home {
+            text-decoration: none;
+            color: #333;
+            background-color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-color: #F0C808;
+            float: right;
+            margin-left: 20px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d9d4;
+            text-align: center;
+        }
+
+        h1 {
+            color: #212a31;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 180px;
+            height: 120px;
+            object-fit: contain;
+            border: 3px solid #F0C808;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            border-color: #124e66;
+        }
+
+        .separator {
+            width: 90%;
+            height: 5px;
+            background-color: #212a31;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav id="top">
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+    </nav>
+
+    <h1 style="font-size: 50px;background-color: #748d92;">Photo Gallery</h1>
+
+    <div class="gallery">
+        <h1 style="width: 100%;"></h1><br>
+        <a href="images/python.png" target="_blank">
+            <img src="images/python.png" alt="Description 1" title="Image 1: Python">
+        </a>
+        <a href="images/java.png" target="_blank">
+            <img src="images/java.png" alt="Description 2" title="Image 2: Java">
+        </a>
+        <a href="images/csharp.jpg" target="_blank">
+            <img src="images/csharp.jpg" alt="Description 3" title="Image 3: C#">
+        </a>
+        <a href="images/html.jpg" target="_blank">
+            <img src="images/html.jpg" alt="Description 4" title="Image 4: HTML">
+        </a>
+        <a href="images/visual.png" target="_blank">
+            <img src="images/visual.png" alt="Description 5" title="Image 5: Visual Studio">
+        </a>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="gallery">
+        <a href="images/haerin.jpg" target="_blank">
+            <img src="images/haerin.jpg" alt="Description 6" title="Image 6: College Life">
+        </a>
+        <a href="images/minji.jpg" target="_blank">
+            <img src="images/minji.jpg" alt="Description 7" title="Image 7: Traveling">
+        </a>
+        <a href="images/hanni.jpg" target="_blank">
+            <img src="images/hanni.jpg" alt="Description 8" title="Image 8: Hanging Out">
+        </a>
+        <a href="images/danielle.jpg" target="_blank">
+            <img src="images/danielle.jpg" alt="Description 9" title="Image 9: Studying in the Library">
+        </a>
+        <a href="images/hyein.jpg" target="_blank">
+            <img src="images/hyein.jpg" alt="Description 10" title="Image 10: Graduation">
+        </a>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="gallery">
+        <a href="images/switzerland.jpg" target="_blank">
+            <img src="images/switzerland.jpg" alt="Description 11" title="Image 11: First Job Experience">
+        </a>
+        <a href="images/japan.jpg" target="_blank">
+            <img src="images/japan.jpg" alt="Description 12" title="Image 12: Exploring New Hobbies">
+        </a>
+        <a href="images/newzealand.jpg" target="_blank">
+            <img src="images/newzealand.jpg" alt="Description 13" title="Image 13: Favorite Food">
+        </a>
+        <a href="images/korea.jpg" target="_blank">
+            <img src="images/korea.jpg" alt="Description 14" title="Image 14: Bonding with Family">
+        </a>
+        <a href="images/tokyo.jpg" target="_blank">
+            <img src="images/tokyo.jpg" alt="Description 15" title="Image 15: Random Fun Moment">
+        </a>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="gallery">
+        <a href="images/godofwar.jpg" target="_blank">
+            <img src="images/godofwar.jpg" alt="Description 16" title="Image 16: Music Passion">
+        </a>
+        <a href="images/forest.jpg" target="_blank">
+            <img src="images/forest.jpg" alt="Description 17" title="Image 17: Nature Escapades">
+        </a>
+        <a href="images/ghost.jpg" target="_blank">
+            <img src="images/ghost.jpg" alt="Description 18" title="Image 18: Creative Projects">
+        </a>
+        <a href="images/eldenring.jpg" target="_blank">
+            <img src="images/eldenring.jpg" alt="Description 19" title="Image 19: Workout Routine">
+        </a>
+        <a href="images/gtav.jpg" target="_blank">
+            <img src="images/gtav.jpg" alt="Description 20" title="Image 20: Dream Destination">
+        </a>
+    </div>
+</body>
+</html>

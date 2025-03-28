@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1f3b03f6f3.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket List</title>
+    <style>
+        nav  {
+            background-color: #212a31;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            background-color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-color: #F0C808;
+        }
+
+        nav a:hover, #home:hover {
+            background-color: #124e66;
+            color: #d3d9d4;
+            transform: scale(1.05);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d9d4;
+            text-align: center;
+        }
+       
+        h1 {
+            color: #212a31;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .bucket-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .item {
+            background: #2e3944;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            text-align: center;
+        }
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .description {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+    </nav>
+    
+    <h1>My Bucket List</h1>
+    <p>Here are some experiences or achievement that I want to accomplish during my lifetime.</p>
+    
+    <div class="bucket-list">
+        <div class="item">
+            <a href="images/diving.png" target="_blank">
+                <img src="images/diving.png" alt="Skydiving">
+            </a>
+            <div class="description">
+                <h2>Skydiving</h2>
+                <p>I have always want to do skydiving even though I'm not good with heights. It's just fun and thrilling to do something challenging, and this kind of thing is achievement for me.</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="images/tokyo2.png" target="_blank">
+                <img src="images/tokyo2.png" alt="Visit Japan">
+            </a>
+            <div class="description">
+                <h2>Visit Japan</h2>
+                <p>If someone were to ask me what country I would like to go, it would be japan without hesitation. I really want to walk to the busy night life of japan and being overwhelmed of the things to do.</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="images/camping.png" target="_blank">
+                <img src="images/camping.png" alt="Solo Camping">
+            </a>
+            <div class="description">
+                <h2>Solo Camping</h2>
+                <p>Camping alone has this different thrill to me. The thought of being alone in a forest might be scary to some, but for me it's calming and thrilling at the same time.</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="images/caving.png" target="_blank">
+                <img src="images/caving.png" alt="Caving">
+            </a>
+            <div class="description">
+                <h2>Caving</h2>
+                <p>This is the scariest challenge for me, doing caving. This is one of the dangerous things to do since there's a lot of certainty in it. Like getting trapped on it, an earthquake, or maybe a flood that might make your life in danger. But still, the thought of doing it is thrilling so I might do it once. </p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="images/caving.png" target="_blank">
+                <img src="images/belt.png" alt="Black belt">
+            </a>
+            <div class="description">
+                <h2>Black belt in martial arts</h2>
+                <p>Ever since I was young, I have facination over martial arts so it is a must that I get a black belt in my life. Not only it is an achievement to me, this will also help you in rare critical situation, you can protect yourself because you have the knowledge.</p>
+            </div>
+        </div>
+        <div class="item">
+            <a href="images/caving.png" target="_blank">
+                <img src="images/jet.png" alt="Jet">
+            </a>
+            <div class="description">
+                <h2>Riding a jet</h2>
+                <p>I just want to try this experience, it seems fun and thrilling to ride a jet. Although few people are allowed to ride it and it's hard, I still want to try it. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

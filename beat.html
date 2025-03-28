@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1f3b03f6f3.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Beat</title>
+    <style>
+/* code for navigation */
+        nav  {
+            background-color: #212a31;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            background-color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border-color: #F0C808;
+        }
+
+        nav a:hover, #home:hover {
+            background-color: #124e66;
+            color: #d3d9d4;
+            transform: scale(1.05);
+        }
+        
+        /* code for navigation */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d9d4;
+            text-align: center;
+            
+        }
+        h1 {
+            color: #212a31;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .category {
+            
+            color: #9ea7a9;
+            background: #2e3944;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .audio-container {
+            margin: 15px 0;
+            
+        }
+
+        
+
+        .track {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .audio-container img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .audio-container audio {
+        padding-bottom: 20px;
+    }
+
+    #dilaw {
+        
+    }
+    </style>
+</head>
+<body>
+    <nav id="top">
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        
+        
+    </nav>
+
+    <h1 style="font-size: 40px;">My Beat</h1>
+    <p>Explore my favorite music genres and listen to some sample tracks.</p>
+    
+    <div class="category">
+        
+
+        <h2>OPM</h2>
+        <p>Original Pinoy Music, featuring some of the best Filipino artists.</p><br><br>
+        <div class="audio-container">
+            <img src="images/imago.png" alt="Sundo Cover">
+            <p><strong>Artist:</strong> Imago | <strong>Song:</strong> Sundo</p>
+            <p><blockquote><blockquote><blockquote>Imago is a Filipino rock band composed of Kharren "Kurei" Granada (vocals), Myrene "Maps" Academia (bass), Tim Cacho (guitar), and Mervin Panganiban (drums).</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/sundo.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-container">
+            <img src="images/edgar.png" alt="PNE Cover">
+            <p><strong>Artist:</strong> Parokya ni Edgar | <strong>Song:</strong> Harana</p>
+            <p><blockquote><blockquote><blockquote>Parokya ni Edgar (lit: Edgar's Parish) is a Filipino rock band formed in 1993, composed of Chito Miranda (lead vocals), Gab Chee Kee (rhythm guitar, vocals), Buwi Meneses (bass guitar), Darius Semaña (lead guitar), Dindin Moreno (drums, percussion), and Vinci Montaner (backing vocals).</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/harana.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-container">
+            <img src="images/dilaw.png" alt="Dilaw Cover">
+            <p><strong>Artist:</strong> Dilaw | <strong>Song:</strong> Orasa</p>
+            <div id="dilaw"><p style="text-align: justify;"><blockquote><blockquote><blockquote>Dilaw (lit: Yellow), is a Filipino rock band formed in Baguio, Benguet in 2021. Originally an alternative hip-hop duo between singer-songwriter Dilaw Obero and guitarist-instrumentalist Vie Dela Rosa, the group expanded into a full indie rock collective with the addition of Wayne Dela Rosa (bass guitar), Leon Karlos (guitar), En Altomonte (keyboards, synths), and Tóbi Samson (drums).</blockquote></blockquote></blockquote></p></div>
+            <audio controls>
+                <source src="audio/dilaw.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+    
+    
+    <div class="category">
+        <h2>Rock</h2>
+        <p>Energetic and powerful sounds from the best rock artists.</p><br><br>
+        <div class="audio-container">
+            <img src="images/queen.png" alt="Queen Cover">
+            <p><strong>Artist:</strong> Queen | <strong>Album:</strong> News of the World | <strong>Song:</strong> We Are the Champions</p>
+            <p><blockquote><blockquote><blockquote>Queen are a British rock band formed in London in 1970 by Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), and Roger Taylor (drums, vocals), later joined by John Deacon (bass).</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/champions.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-container">
+            <img src="images/eagles.png" alt="Eagles Cover">
+            <p><strong>Artist:</strong> Eagles | <strong>Album:</strong> Hotel California | <strong>Song:</strong> Hotel California</p>
+            <p><blockquote><blockquote><blockquote>The Eagles are an American rock band formed in Los Angeles in 1971. With five number-one singles, six number-one albums, six Grammy Awards and five American Music Awards, the Eagles were one of the most successful musical acts of the 1970s in North America and are one of the world's best-selling music artists, having sold more than 200 million records worldwide,[1] including 100 million sold in the US alone.</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/california.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-container">
+            <img src="images/bee.png" alt="Bee Gees Cover">
+            <p><strong>Artist:</strong> Bee Gees | <strong>Album:</strong> Saturday Night Fever | <strong>Song:</strong> How Deep Is Your Love</p>
+            <p><blockquote><blockquote><blockquote>The Bee Gees were a musical group formed in 1958 by brothers Barry, Robin, and Maurice Gibb. The trio were especially successful in popular music in the late 1960s and early 1970s, and later as prominent performers in the disco music era in the mid-to-late 1970s.</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/love.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    
+    
+    
+    <div class="category">
+        <h2>Indie</h2>
+        <p>Unique and artistic sounds from talented indie musicians.</p><br><br>
+        <div class="audio-container">
+            <img src="images/lana.png" alt="Lana Del Rey Cover">
+            <p><strong>Artist:</strong> Lana Del Rey | <strong>Song:</strong> West Coast</p>
+            <p><blockquote><blockquote><blockquote>Elizabeth Woolridge Grant (born June 21, 1985), known professionally as Lana Del Rey, is an American singer-songwriter. Her music is noted for its melancholy exploration of glamor and romance, with frequent references to pop culture and 1950s–1970s Americana.</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/west.mp3" type="audio/mpeg">
+                
+            </audio>
+        </div>
+        <div class="audio-container">
+            <img src="images/eye.png" alt="Eyedress Cover">
+            <p><strong>Artist:</strong> Eyedress | <strong>Song:</strong> Something About You</p>
+            <p><blockquote><blockquote><blockquote>Idris Ennolandy Vicuña (born May 28, 1990), known professionally as Eyedress, is a Filipino musician who has released albums in various rock, pop and electronic styles. Eyedress currently lives in Los Angeles.</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/eyedress.mp3" type="audio/mpeg">
+                
+            </audio>
+        </div>
+        <div class="audio-container">
+            <img src="images/monkey.png" alt="Artic Monkeys Cover">
+            <p><strong>Artist:</strong> Arctic Monkeys | <strong>Song:</strong> No.1 Party Anthem</p>
+            <p><blockquote><blockquote><blockquote>Arctic Monkeys are an English rock band formed in Sheffield in 2002. The group consists of lead singer Alex Turner, drummer Matt Helders, guitarist Jamie Cook and bassist Nick O'Malley; original bassist and co-founder Andy Nicholson left the band in 2006.</blockquote></blockquote></blockquote></p>
+            <audio controls>
+                <source src="audio/anthem.mp3" type="audio/mpeg">
+                
+            </audio>
+        </div>
+    </div>
+</body>
+</html>

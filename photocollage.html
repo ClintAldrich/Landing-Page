@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1f3b03f6f3.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name=“author” content=“REYES, CLINT ALDRICH”>
+    <title>Photo Collage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3d9d4;
+            text-align: center;
+            
+        }
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav {
+            background-color: #212a31;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            background-color: white;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: 1px solid #F0C808;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #124e66;
+            color: #d3d9d4;
+            transform: scale(1.05);
+        }
+        .image-container {
+            
+            max-width: 1000px;
+            
+            background-color: #2e3944;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+            margin: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+    </nav>
+    <h1>Photo Collage</h1>
+    <p>Beautiful Places to go</p>
+    <div class="image-container">
+        <img src="images/collage.png" alt="Insert your image here"  usemap="#places">
+        <map name="places">
+            
+            <area shape="poly" coords="313,354,327,193,572,213,542,569,342,552,331,356,313,356,325,192" href="places/korea.html" alt="">
+            <area shape="poly" coords="94,738,71,383,317,368,333,655,221,654,220,729,94,737" href="places/switzerland.html" alt="">
+            <area shape="rect" coords="236,668,546,971" href="places/tokyo.html" alt="">
+            <area shape="circle" coords="217,1097,97" href="places/alaska.html" alt="">
+        </map>
+    </div>
+</body>
+</html>
